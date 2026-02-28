@@ -1,0 +1,123 @@
+{
+	"pages": [
+	{
+		"path": "pages/quickrem/quickrem",
+		"style": {
+			"navigationBarTitleText": "微记"
+		}
+	},
+	{
+		"path": "pages/bill/bill",
+		"style": {
+			"navigationBarTitleText": "微记"
+		}
+	},
+	{
+		"path": "pages/data/data",
+		"style": {
+			"navigationBarTitleText": "微记"
+		}
+	},
+	{
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "微记"
+		}
+	}
+	
+],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+				{
+					"path": "budget/budget",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "categories/categories",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "reminder/reminder",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "backup/backup",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "help/help",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "feedback/feedback",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "about/about",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "testabout/testabout",
+					"style": {
+						"navigationBarTitleText": "关于"
+					}
+				}
+				
+			]
+		}
+	],
+	"tabBar": {
+		"selectedColor": "#18bc37",
+		"list": [
+			{
+				"pagePath": "pages/quickrem/quickrem",
+				"text": "速记",
+				"iconPath": "/static/首页.png",
+				"selectedIconPath": "/static/首页.png"
+			},
+			{
+				"pagePath": "pages/bill/bill",
+				"text": "账单",
+				"iconPath": "/static/记账.png",
+				"selectedIconPath": "/static/记账.png"
+			},
+			{
+				"pagePath": "pages/data/data",
+				"text": "数据",
+				"iconPath": "/static/数据.png",
+				"selectedIconPath": "/static/数据.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "/static/我的.png",
+				"selectedIconPath": "/static/我的.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

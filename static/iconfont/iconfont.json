@@ -1,0 +1,37 @@
+{
+  "id": "5126051",
+  "name": "ji'z",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4487894",
+      "name": "数据",
+      "font_class": "shuju",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "12739231",
+      "name": "记账",
+      "font_class": "bookkeeping",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "13429945",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "22409538",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e84e",
+      "unicode_decimal": 59470
+    }
+  ]
+}
